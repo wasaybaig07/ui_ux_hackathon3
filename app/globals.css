@@ -1,0 +1,59 @@
+@tailwind base;
+
+.cffe{
+  background-color: #bc9a6c;
+}
+
+.text{
+  color: #bc9a6c;
+}
+
+.text2:hover{
+  color: #bc9a6c;
+}
+
+.brdr{
+  border:2px solid #bc9a6c;
+}
+
+.ftr{
+  background-color:#ff9f0d;
+}
+
+.ftr1{
+  color:#ff9f0d;
+}
+
+.brdr1{
+  border-bottom: 2px solid #ff9f0d;
+}
+
+/* .dsp{
+  display: grid;
+  grid-template-columns: (auto-fit,minmax(320px,1fr));
+} */
+
+.inter{
+  font-family: var(--font-inter);
+}
+
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
