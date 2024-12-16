@@ -16,6 +16,14 @@
   border:2px solid #bc9a6c;
 }
 
+.txt{
+  font-size: 14px;
+}
+
+.brdr2{
+  border: 2px solid #ff9f0d;
+}
+
 .ftr{
   background-color:#ff9f0d;
 }

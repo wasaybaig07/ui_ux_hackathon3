@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 function OurMenu() {
   return (
     <div className="space-y-24">
@@ -10,13 +10,27 @@ function OurMenu() {
             <h1 className="text">talk</h1>
           </div>
           <ul className="flex space-x-4">
+            <Link href="/Main">
             <li className="text2">Home</li>
+            </Link>
+            <Link href="/OurMenu">
             <li className="text2">Menu</li>
+            </Link>
+            <Link href="/BlogList">
             <li className="text2">Blog</li>
+            </Link>
+            <Link href="/ShopDetails">
             <li className="text2">Pages</li>
+            </Link>
+            <Link href="/Items">
             <li className="text2">About</li>
+            </Link>
+            <Link href="/OurShop">
             <li className="text2">Shop</li>
+            </Link>
+            <Link href="/Signin">
             <li className="text2">Contact</li>
+            </Link>
           </ul>
           <ul className="flex space-x-4">
             <li>

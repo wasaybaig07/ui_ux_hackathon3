@@ -4,7 +4,7 @@ function OurChefs() {
   return (
     <div>
       <nav className="h-[60px] ml-auto mr-auto w-[80vw] flex items-center justify-between">
-        <div className="h-[60px] ml-auto mr-auto w-[80vw] flex items-center justify-between">
+        <div className="h-[60px] ml-auto mr-auto w-[80vw] flex items-center justify-between flex-col sm:flex-row">
           <div className="flex text-2xl">
             <h1>Food</h1>
             <h1 className="text">talk</h1>
@@ -164,7 +164,7 @@ function OurChefs() {
             />
           </defs>
         </svg>
-        <div className="w-[10vw] ml-auto mr-auto absolute top-[0px] right-[45vw] text-center xl:absolute xl:top-[100px] ">
+        <div className="w-[10vw] ml-auto mr-auto absolute top-[200px] right-[45vw] text-center xl:absolute xl:top-[100px] ">
           <h1 className="text-[30px]">Our Chef</h1>
           <svg
             width="126"
@@ -669,16 +669,16 @@ function OurChefs() {
           </div>
         </div>
       </main>
-      <footer className="sm:w-[80vw] w-[100vw] ml-auto mr-auto  xl:flex flex-wrap justify-evenly pb-6 border hidden brdr1 border-x-0 border-t-0
-      sm:flex-row flex-col ">
+      <footer className="w-[100vw] ml-auto mr-auto flex sm:flex-row flex-col justify-evenly pb-6 border brdr1 border-x-0 border-t-0
+      ">
         <div className="sm:w-[70%] w-[60%] ml-auto mr-auto">
           <h1 className="text-[35px]">Still You Need Our Support ?</h1>
           <p>Don't wait to make a smart & logical quote here,Its pretty easy</p>
         </div>
-        <div className="w-[40%] sm:w-[30%] ml-auto flex items-center ">
+        <div className="w-[40%] sm:w-[30%] ml-auto items-center sm:flex hidden ">
           <input
             type="text"
-            className="text-white ftr py-3 h-fit px-3 rounded-l-md"
+            className="text-white ftr py-3 h-fit px-3 rounded-l-md "
             placeholder="Enter your email"
           />
           <button className="px-3 py-3 ftr1 rounded-r-md bg-white">
@@ -687,7 +687,7 @@ function OurChefs() {
         </div>
       </footer>
       <footer className="flex w-[80vw] ml-auto mr-auto justify-evenly border border-t-slate-200 border-x-0 border-b-0 mt-4 xl:border-transparent flex-wrap">
-        <ul className="flex justify-evenly items-start">
+        <ul className="flex justify-evenly items-start sm:flex-row sm:text  -start text-center flex-col">
           <li className="w-[35%] space-y-4 m-3">
             <h1 className="font-bold text-[20px]">About Us</h1>
             <p>
